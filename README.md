@@ -6,17 +6,36 @@
 
 ```
 .
-├── CLAUDE.md           # Правила для AI (безопасность, Write-First, anti-bloat, LLM Wiki, Telegram)
-├── PROJECTS.md         # Дашборд проектов (шаблон, заполнишь под себя)
-├── SERVICES.md         # Локальные/удалённые сервисы (шаблон)
-├── .gitignore          # Безопасные дефолты: .env, ключи, токены, логи, кэш
-├── .claudeignore       # Что Claude Code игнорирует при авточтении
-├── INBOX/              # Входящая папка для сортировки (разбирается по команде)
-├── scripts/            # Утилиты workspace (пусто, добавляй по мере надобности)
-└── .claude/
-    ├── commands/       # Слэш-команды (параллельные исследования, контент-пайплайн, advisory teams)
-    └── skills/         # Скиллы (голос, write-post, mega-polish, video-summary, zamesin JTBD и др.)
+├── CLAUDE.md                   # Правила для AI (безопасность, Write-First, anti-bloat, LLM Wiki, Telegram)
+├── PROJECTS.md                 # Дашборд проектов (шаблон, заполнишь под себя)
+├── SERVICES.md                 # Локальные/удалённые сервисы (шаблон)
+├── .gitignore                  # Безопасные дефолты: .env, ключи, токены, логи, кэш
+├── .claudeignore               # Что Claude Code игнорирует при авточтении
+├── INBOX/                      # Корневая входящая папка для сортировки
+├── scripts/                    # Утилиты workspace
+│
+├── .claude/
+│   ├── commands/               # Слэш-команды (параллельные исследования, контент-пайплайн, advisory teams)
+│   └── skills/                 # Скиллы (голос, write-post, mega-polish, video-summary, zamesin JTBD и др.)
+│
+├── example-agency/             # 📘 ПРИМЕР: клиентский проект (CRM, встречи, стратегия)
+│   ├── CLAUDE.md
+│   ├── CRM/{Active,Archive,Prospects}/
+│   ├── Docs/{Strategy,Tasks,Content,Research}/
+│   ├── Client-Meetings/
+│   └── INBOX/
+│
+└── example-knowledge-base/     # 📘 ПРИМЕР: личная база знаний (Wiki, цели, проекты)
+    ├── CLAUDE.md
+    ├── Goals/ Health/ Finance/
+    ├── Projects/{Active,Archive}/
+    ├── Ideas/
+    ├── Wiki/{index,current-focus,sources,log}.md + raw/
+    ├── Brand/Content/{tov-profiles,style-guides,Drafts}/
+    └── Learning/
 ```
+
+**Два примерных проекта** (`example-agency/` и `example-knowledge-base/`) — скелеты с правилами (`CLAUDE.md`), README и пустыми папками с пояснениями. Они показывают типичные паттерны организации: клиентская работа и личный second brain. Переименуй, удали или оставь как образцы — на твой выбор.
 
 ## Быстрый старт
 
@@ -24,9 +43,11 @@
 git clone <this-repo> my-workspace
 cd my-workspace
 
-# 1. Прочитай CLAUDE.md и PROJECTS.md — подстрой под себя
-# 2. Добавь свои подпроекты в PROJECTS.md
-# 3. Открой папку в Claude Code / VS Code
+# 1. Прочитай CLAUDE.md — подстрой правила под себя
+# 2. Посмотри example-agency/ и example-knowledge-base/ — понять паттерны
+# 3. Переименуй examples или удали их, создай свои подпроекты
+# 4. Обнови PROJECTS.md — дашборд твоих проектов
+# 5. Открой папку в Claude Code / VS Code
 ```
 
 ## Что в .claude/
