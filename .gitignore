@@ -1,0 +1,130 @@
+# CheevOS Template .gitignore
+
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Personal / sandbox folders (local-only scratch space)
+Personal/
+.personal/
+sandbox/
+Sandbox/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Node modules
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# ============================================
+# Environment variables and secrets
+# ============================================
+.env
+.env.*
+*.env
+!.env.example
+.envrc
+
+# MCP local config (может содержать локальные пути и токены)
+.mcp.json
+
+# API keys and certificates
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+id_rsa*
+
+# Configuration files with secrets
+secrets.json
+credentials.json
+config.local.json
+*.secret
+*secret*
+*credential*
+*password*
+*token*
+
+# ============================================
+# AI Tools Security
+# ============================================
+
+# AI Tools - Logs and Cache
+.claude/logs/
+.claude/cache/
+.cursor/logs/
+.cline/logs/
+.cline/cache/
+
+# AI Tools - Sensitive Configurations
+.claude/config.json
+.claude/settings.local.json
+.cline/config.json
+
+# Git hooks (локальные)
+.git/hooks/pre-commit.local
+
+# ============================================
+# Obsidian (если используешь)
+# ============================================
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/plugins/*/data.json
+
+# ============================================
+# Databases and dumps
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+*.mdb
+*.accdb
+*.sql
+*.dump
+*.backup
+*.bak
+
+# ============================================
+# Sensitive documents (часто содержат персональные/коммерческие данные)
+# ============================================
+# Раскомментируй, если хочешь исключить PDF и docx по умолчанию
+# *.pdf
+# *.docx
+
+# ============================================
+# Inbox (временная папка для сортировки)
+# ============================================
+# Если INBOX не должен попадать в git (рекомендуется при работе с клиентскими файлами),
+# раскомментируй:
+# INBOX/

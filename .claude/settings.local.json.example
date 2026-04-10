@@ -1,0 +1,23 @@
+{
+  "_comment": "Скопируй в settings.local.json и настрой под себя. Сам settings.local.json в .gitignore.",
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "WebFetch(*)",
+      "WebSearch"
+    ],
+    "ask": [
+      "Bash(git push:*)",
+      "Bash(git push --force:*)",
+      "Bash(ssh :*)",
+      "Bash(rsync :*)",
+      "Bash(scp :*)",
+      "Bash(rm -rf:*)",
+      "Bash(rm -r :*)"
+    ],
+    "additionalDirectories": [
+      "/tmp",
+      "/private/tmp"
+    ]
+  }
+}

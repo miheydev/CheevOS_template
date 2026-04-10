@@ -1,0 +1,45 @@
+# Claude Code — игнорировать при автоматическом чтении
+# (Claude всё равно прочитает по явному запросу)
+
+# Зависимости
+node_modules/
+vendor/
+.pnp/
+
+# Сборка
+dist/
+build/
+.next/
+out/
+__pycache__/
+*.pyc
+*.pyo
+.cache/
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.bak
+logs/
+
+# Git
+.git/
+
+# Бинарники и медиа (крупные)
+*.zip
+*.tar.gz
+*.dmg
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.mov
+
+# Данные (могут быть огромными)
+*.sqlite
+*.db
+
+# IDE
+.DS_Store
+.vscode/settings.json
