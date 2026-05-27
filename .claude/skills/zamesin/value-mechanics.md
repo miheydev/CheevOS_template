@@ -1,116 +1,122 @@
+---
+language: en
+methodology_origin: ru
+---
+
 # Skill: /value-mechanics
 
-> Генерация гипотез ценности через 20+ механик создания ценности AJTBD
+> Generating Value Hypotheses via 20+ AJTBD value-creation Mechanics
 
-## Триггеры
+## Triggers
 
 - `/value-mechanics`
+- "how to create Value"
+- "Value Mechanics"
+- "how to grow Value"
+- "how to simplify the product"
 - "как создать ценность"
-- "механики ценности"
-- "как увеличить ценность"
-- "как упростить продукт"
 
-## Инструкция
+## Instructions
 
-Пользователь описывает продукт, граф работ или ситуацию. Твоя задача — сгенерировать гипотезы создания ценности, применяя механики AJTBD к графу работ.
+The user describes a product, Job Graph, or situation. Your task is to generate Value Hypotheses by applying AJTBD Mechanics (механики) to the Job Graph.
 
-### Что такое ценность в AJTBD
+### What Value is in AJTBD
 
-**Ценность — это более энергоэффективно выполнять работы клиентов.**
+**Value is doing customer Jobs more energy-efficiently.**
 
-Предложение клиенту: мы выполним твою работу за меньшее количество инвестиций (денег, времени, энергии) и дадим больше ресурсов (качественнее выполним работу, выполним больше работ, удовлетворим потребности), чем конкуренты.
+The offer to the customer: we'll do your Job for fewer investments (money, time, energy) and deliver more resources (do the Job better, do more Jobs, satisfy needs) than competitors.
 
-**Ценность создаётся из преобразования и упрощения графа работ.** ВСЕ успешные решения объясняются оптимизацией графов работ.
+**Value is created by transforming and simplifying the Job Graph.** ALL successful Solutions can be explained as Job Graph optimization.
 
-### Роль ожиданий
+### The role of expectations
 
-Мозг всегда предсказывает граф работ, косты и пользу:
-- Граф проще ожиданий → «вау», позитивные эмоции, всплеск дофамина
-- Граф сложнее ожиданий → «плохой опыт», негативные эмоции, просадка дофамина
-- **Базовое качество** = попасть в предсказание мозга
+The brain always predicts the Job Graph, the costs, and the benefit:
+- Graph simpler than expected → "wow", positive emotions, dopamine spike
+- Graph harder than expected → "bad experience", negative emotions, dopamine drop
+- **Baseline quality** = hitting the brain's prediction
 
-### 20+ механик создания ценности
+### 20+ value-creation Mechanics
 
-#### Базовые механики
+#### Base Mechanics
 
-| # | Механика | Суть | Пример |
-|---|----------|------|--------|
-| 1 | **Починить проблемы** | Решение облажалось → починить, чтобы работа выполнялась без проблем | Кофейня вернула старого поставщика зёрен |
-| 2 | **Убить работы** | Убрать работы ниже уровнем, упростить граф | Туроператор «убивает» работы: искать билеты, отель, трансфер |
-| 3 | **Выполнять больше работ одним решением** | Суммируем пользу, снижаем косты | Заправка + кафе + магазин = одна остановка |
-| 4 | **Начать выполнять работу, которая никак не выполняется** | На рынке нет решения для важной работы | Первый сервис международных переводов для фрилансеров |
-| 5 | **Сокращать задержки между работами** | Быстрее переходить между шагами | Моментальное одобрение кредита вместо 2 недель |
-| 6 | **Снизить косты не убивая работы** | Дешевле при том же качестве | Лоукостер: те же рейсы, но дешевле |
+| # | Mechanic | Essence | Example |
+|---|----------|---------|---------|
+| 1 | **Fix problems** | A Solution screwed up → fix it so the Job runs without problems | A coffee shop brought back its old bean supplier |
+| 2 | **Kill Jobs (убить работы)** | Remove lower-level Jobs, simplify the graph | A tour operator "kills" Jobs: finding tickets, hotel, transfer |
+| 3 | **Do more Jobs with one Solution** | Add up benefits, reduce costs | Gas station + cafe + store = one stop |
+| 4 | **Start doing a Job nobody does** | The market has no Solution for an important Job | The first international transfer service for freelancers |
+| 5 | **Reduce delays between Jobs** | Move faster between steps | Instant credit approval instead of 2 weeks |
+| 6 | **Reduce costs without killing Jobs** | Cheaper at the same quality | Low-cost airline: same flights, but cheaper |
 
-#### Комбинированные механики
+#### Combined Mechanics
 
-| # | Механика | Суть | Пример |
-|---|----------|------|--------|
-| 7 | **Выйти на предыдущую работу** | Выполнять работу ДО текущей в графе | Aviasales: «найти билеты» перед «купить билеты» |
-| 8 | **Выйти на следующую работу** | Выполнять работу ПОСЛЕ текущей в графе | Банк предлагает страховку после оформления ипотеки |
-| 9 | **Выйти на высокоуровневую работу** | Забрать выполнение всей Big Job | LiFT: не услуги по отдельности, а «прокачать личный бренд целиком» |
-| 10 | **Забрать выполнение работы с человека** | Сделать ЗА клиента | Управляющая компания вместо самостоятельного ремонта |
-| 11 | **Разбить пользу и давать её раньше** | Клиент получает ценность до завершения всего процесса | Показать промежуточный результат до конца проекта |
-| 12 | **Сместиться в соседний сегмент** | Найти похожую работу у другой группы людей | Яндекс Такси: от эконома к бизнес-классу |
+| # | Mechanic | Essence | Example |
+|---|----------|---------|---------|
+| 7 | **Move to the previous Job** | Do the Job BEFORE the current one in the graph | Aviasales: "find tickets" before "buy tickets" |
+| 8 | **Move to the next Job** | Do the Job AFTER the current one in the graph | A bank offers insurance after issuing a mortgage |
+| 9 | **Move up to a higher-level Job** | Take over the entire Big Job | LiFT: not separate services, but "develop the personal brand end-to-end" |
+| 10 | **Take the Job off the human** | Do it FOR the customer | A property management company instead of DIY renovation |
+| 11 | **Split the benefit and deliver it earlier** | Customer gets Value before the whole process ends | Show an intermediate result before the project finishes |
+| 12 | **Shift to an adjacent Segment** | Find a similar Job in another group of people | Yandex Taxi: from economy to business class |
 
-#### Стратегические механики
+#### Strategic Mechanics
 
-| # | Механика | Суть |
-|---|----------|------|
-| 13 | **Создать канал привлечения через предыдущую работу** | Домклик → ипотека Сбербанка |
-| 14 | **Активировать в дополнительные работы** | Cross-sell через граф работ |
-| 15 | **Выполнить виральные работы** | Получить лидов через выполнение работ |
-| 16 | **Выйти из прямой конкуренции** | Конкурировать за другую часть графа |
+| # | Mechanic | Essence |
+|---|----------|---------|
+| 13 | **Build an acquisition channel through the previous Job** | Domklick → Sberbank mortgage |
+| 14 | **Activate into additional Jobs** | Cross-sell through the Job Graph |
+| 15 | **Perform viral Jobs** | Get leads through performing Jobs |
+| 16 | **Escape direct competition** | Compete for a different part of the graph |
 
-**Главная механика — убийство работ.** Она лежит в корне большинства других механик. «Упрощение, просто, удобнее — это ВСЕГДА убийство работ.»
+**The master Mechanic — killing Jobs.** It sits at the root of most other Mechanics. "Simplification, simple, more convenient — that's ALWAYS killing Jobs."
 
-### Алгоритм создания ценности
+### Value creation algorithm
 
-1. **Изучи граф работ** фокусного сегмента с текущими решениями (проблемы + ожидания)
-2. **Пройдись по каждой механике** — можно ли применить к этому графу?
-3. **Ранжируй механики по приоритету:**
-   - Для более высокого уровня работ в графе
-   - Для работ в критической последовательности
-   - Для работ с самой низкой удовлетворённостью / самым большим отвалом
-4. **Сгенерируй конкретные гипотезы** — что именно сделать для каждой механики
+1. **Study the Job Graph** of the focus Segment with current Solutions (problems + expectations)
+2. **Walk through each Mechanic** — can it be applied to this graph?
+3. **Rank Mechanics by priority:**
+   - For higher-level Jobs in the graph
+   - For Jobs in the Critical Sequence
+   - For Jobs with the lowest satisfaction / biggest drop-off
+4. **Generate concrete Hypotheses** — exactly what to do for each Mechanic
 
 ---
 
-## Формат ответа
+## Response format
 
-### Механики ценности: [продукт/ситуация]
+### Value Mechanics: [product/situation]
 
-**Сегмент:** [для кого]
-**Big Job:** [высокоуровневая работа]
+**Segment:** [for whom]
+**Big Job:** [high-level Job]
 
-#### Применимые механики
+#### Applicable Mechanics
 
-| # | Механика | Над какой работой | Гипотеза | Потенциал | Сложность |
-|---|----------|------------------|----------|-----------|-----------|
-| 1 | ... | ... | ... | высокий/средний/низкий | высокая/средняя/низкая |
+| # | Mechanic | Over which Job | Hypothesis | Potential | Difficulty |
+|---|----------|----------------|------------|-----------|------------|
+| 1 | ... | ... | ... | high/medium/low | high/medium/low |
 
-#### Топ-3 гипотезы (приоритет)
+#### Top-3 Hypotheses (priority)
 
-**1. [Механика]: [гипотеза]**
-- Работа: [какую работу затрагивает]
-- Почему приоритет: [критическая последовательность / высокий уровень / большой отвал]
-- Что сделать: [конкретные шаги]
-- Как валидировать: [интервью / эксперимент / данные]
+**1. [Mechanic]: [Hypothesis]**
+- Job: [which Job it affects]
+- Why priority: [Critical Sequence / high level / big drop-off]
+- What to do: [concrete steps]
+- How to validate: [interview / experiment / data]
 
-**2. [Механика]: [гипотеза]**
+**2. [Mechanic]: [Hypothesis]**
 ...
 
-**3. [Механика]: [гипотеза]**
+**3. [Mechanic]: [Hypothesis]**
 ...
 
-#### Чего НЕ делать
+#### What NOT to do
 
-- [Механики, которые не подходят в данном контексте и почему]
+- [Mechanics that don't fit this context and why]
 
-**Следующий шаг:** Для решения конкретной бизнес-задачи — `/biz-task-solve`. Для анализа конкурентов — `/consideration-set`.
+**Next step:** To solve a specific Business task — `/biz-task-solve`. For competitor analysis — `/consideration-set`.
 
 ---
 
-**Продукт / граф работ для анализа:**
+**Product / Job Graph to analyze:**
 
 $ARGUMENTS

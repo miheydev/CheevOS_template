@@ -1,81 +1,87 @@
+---
+language: en
+methodology_origin: ru
+---
+
 # Skill: /job-graph
 
-> Построение графа работ — иерархия работ с критической последовательностью
+> Building the Job Graph — Job hierarchy with a Critical Sequence
 
-## Триггеры
+## Triggers
 
 - `/job-graph`
+- "build the job graph"
+- "job hierarchy"
+- "critical sequence"
+- "what are the sub-jobs"
 - "построй граф работ"
-- "иерархия работ"
-- "критическая последовательность"
-- "какие подзадачи"
 
-## Инструкция
+## Instructions
 
-Пользователь предоставляет описание работ (результат `/job-describe`) или описывает продукт/ситуацию. Твоя задача — построить граф работ с выделением критической последовательности.
+The user provides a Job description (output of `/job-describe`) or describes a product/situation. Your task is to build the Job Graph (граф работ) and highlight the Critical Sequence.
 
-### Что такое граф работ
+### What the Job Graph is
 
-**Граф работ — иерархия работ, которые человек выполняет для удовлетворения потребностей.** Это вторая единица анализа AJTBD (первая — работа).
+**The Job Graph is the hierarchy of Jobs a person performs to satisfy their needs.** It's the second unit of analysis in AJTBD (the first is the Job).
 
-Из знания и преобразования графа работ рождаются: ценность, стратегия продукта, алгоритмы решения бизнес-задач.
+Knowledge and transformation of the Job Graph give birth to: Value, product strategy, and algorithms for solving Business tasks.
 
-### Принципы построения графа
+### Principles of graph construction
 
-1. **Работы ниже уровнем** выполняются ДЛЯ того, чтобы выполнить работу выше уровнем. Человек не может не выбрать куда поехать, купить билеты, забронировать отель — чтобы выполнить «отдохнуть в отпуске».
+1. **Lower-level Jobs (работы ниже уровнем)** are performed IN ORDER TO do a higher-level Job. A person cannot avoid choosing where to go, buying tickets, booking a hotel — in order to do "have a vacation".
 
-2. **Связи «многие ко многим».** Работа «нанять руководителя» может выполняться для нескольких работ выше: «сохранить сотрудников», «вырастить продажи», «снять с себя нагрузку».
+2. **"Many to many" relationships.** The Job "hire an executive" can serve several higher Jobs: "retain employees", "grow sales", "take load off myself".
 
-3. **Реальный граф определяется двумя факторами:**
-   - Строением графа, которое заложили создатели решения
-   - Выбором человека выполнить работу конкретным решением
+3. **The real graph is shaped by two factors:**
+   - The graph structure baked in by the Solution's creators
+   - The person's choice to do the Job with a specific Solution
 
-4. **Разные решения = разные графы.** «Отдохнуть на море» самостоятельно = одни подзадачи. Через туроператора = другие.
+4. **Different Solutions = different graphs.** "Have a beach vacation" on your own = one set of sub-jobs. Through a tour operator = a different set.
 
-5. **Не нужно знать ВСЕ работы.** Для решения бизнес-задачи достаточно знать небольшую часть графа — ту, что релевантна.
+5. **You don't need to know ALL the Jobs.** To solve a Business task it's enough to know a small part of the graph — the relevant part.
 
-### Критическая последовательность
+### Critical Sequence
 
-**Критическая последовательность — работы, которые человек НЕ МОЖЕТ не выполнить, чтобы выполнилась работа выше уровнем.**
+**The Critical Sequence is the set of Jobs a person CANNOT skip in order for the higher-level Job to get done.**
 
-- Чинить проблемы в критической последовательности — всегда приоритет #1
-- Невыполнение работы из критической последовательности → отвал клиента
-- CJM в пределе должен совпадать с критической последовательностью
+- Fixing problems in the Critical Sequence is always priority #1
+- Failing a Job in the Critical Sequence → customer drop-off
+- A CJM, in the limit, should match the Critical Sequence
 
-### Дополнительные работы
+### Additional Jobs
 
-Работы вне критической последовательности — дополнительные. Их наличие увеличивает ценность, но их отсутствие не приводит к отвалу.
+Jobs outside the Critical Sequence are additional. Their presence increases Value, but their absence does not cause drop-off.
 
-### Налоговые работы
+### Tax Jobs
 
-**Налоговые работы** — дополнительные работы, которые человек ВЫНУЖДЕН выполнять из-за проблем с решением. Это всегда негативный опыт.
+**Tax Jobs (налоговые работы)** are additional Jobs a person is FORCED to do because of problems with the Solution. Always a negative experience.
 
-### Свойства работ в графе
+### Job properties in the graph
 
-- **Частотность** — как часто выполняется (важно для retention-модели)
-- **Последовательность** — порядок выполнения (важно для конверсий)
-- **Виральность** — при выполнении можно получить дешёвых лидов
-- **Уровень** — чем выше уровень, тем стратегически важнее
+- **Frequency** — how often performed (matters for retention models)
+- **Sequence** — order of execution (matters for conversion)
+- **Virality** — performing the Job can yield cheap leads
+- **Level** — the higher the level, the more strategically important
 
-### Алгоритм
+### Algorithm
 
-1. **Возьми работу верхнего уровня** (Big Job)
-2. **Раскрой работы ниже уровнем** — что нужно сделать, чтобы выполнить Big Job
-3. **Для каждой работы ниже** раскрой ещё уровень (если нужно)
-4. **Отметь критическую последовательность** — без каких работ Big Job НЕ выполнится
-5. **Отметь дополнительные работы** — повышают ценность, но не критичны
-6. **Для каждой работы укажи текущее решение и удовлетворённость**
+1. **Take the top-level Job** (Big Job)
+2. **Unpack the lower-level Jobs** — what must be done to perform the Big Job
+3. **For each lower Job** unpack one more level (if needed)
+4. **Mark the Critical Sequence** — which Jobs the Big Job cannot be done without
+5. **Mark additional Jobs** — increase Value, but not critical
+6. **For each Job note the current Solution and satisfaction**
 
 ---
 
-## Формат ответа
+## Response format
 
-### Граф работ: [Big Job]
+### Job Graph: [Big Job]
 
-**Сегмент:** [для кого]
-**Текущее решение для Big Job:** [какое]
+**Segment:** [for whom]
+**Current Solution for the Big Job:** [which one]
 
-#### Дерево работ
+#### Job tree
 
 ```
 [Big Job] ★
@@ -88,41 +94,41 @@
 │   └── [Small Job 2.2] — additional
 ├── [Core Job 3] — additional
 │   └── [Small Job 3.1]
-└── [Core Job 4] — additional (виральная)
+└── [Core Job 4] — additional (viral)
 ```
 
-★ = критическая последовательность
+★ = Critical Sequence
 
-#### Критическая последовательность
+#### Critical Sequence
 
-| Порядок | Работа | Текущее решение | Проблемы | Удовлетворённость |
-|---------|--------|-----------------|----------|-------------------|
-| 1 | ... | ... | ... | низкая/средняя/высокая |
+| Order | Job | Current Solution | Problems | Satisfaction |
+|-------|-----|------------------|----------|--------------|
+| 1 | ... | ... | ... | low/medium/high |
 | 2 | ... | ... | ... | ... |
 
-#### Дополнительные работы
+#### Additional Jobs
 
-| Работа | Текущее решение | Потенциал ценности |
-|--------|-----------------|-------------------|
-| ... | ... | низкий/средний/высокий |
+| Job | Current Solution | Value potential |
+|-----|------------------|-----------------|
+| ... | ... | low/medium/high |
 
-#### Налоговые работы (если есть)
+#### Tax Jobs (if any)
 
-| Работа | Из-за какой проблемы | Раздражение |
-|--------|---------------------|-------------|
-| ... | ... | низкое/среднее/высокое |
+| Job | Caused by which problem | Annoyance |
+|-----|-------------------------|-----------|
+| ... | ... | low/medium/high |
 
-#### Возможности из графа
+#### Opportunities from the graph
 
-1. **Проблемы в критической последовательности:** [починить в первую очередь]
-2. **Работы, которые можно убить:** [упрощение]
-3. **Работы, которые можно объединить:** [больше работ одним решением]
-4. **Выход на работу выше:** [стратегическая механика]
+1. **Problems in the Critical Sequence:** [fix first]
+2. **Jobs that can be killed:** [simplification]
+3. **Jobs that can be combined:** [more Jobs with one Solution]
+4. **Move up to a higher Job:** [strategic Mechanic]
 
-**Следующий шаг:** Для генерации механик ценности над графом — `/value-mechanics`. Для сегментации — `/segment-find`.
+**Next step:** To generate Value Mechanics over the graph — `/value-mechanics`. For segmentation — `/segment-find`.
 
 ---
 
-**Работы / продукт для построения графа:**
+**Jobs / product to build the graph for:**
 
 $ARGUMENTS

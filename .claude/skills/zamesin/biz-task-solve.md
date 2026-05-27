@@ -1,167 +1,173 @@
+---
+language: en
+methodology_origin: ru
+---
+
 # Skill: /biz-task-solve
 
-> 5-шаговый алгоритм решения бизнес-задач по AJTBD
+> 5-step algorithm for solving Business tasks using AJTBD
 
-## Триггеры
+## Triggers
 
 - `/biz-task-solve`
+- "how to solve a business task"
+- "how to grow revenue"
+- "how to reduce churn"
+- "how to increase conversion"
+- "how to scale the product"
 - "как решить бизнес-задачу"
-- "как вырасти в выручке"
-- "как снизить отток"
-- "как увеличить конверсию"
-- "как масштабировать продукт"
 
-## Инструкция
+## Instructions
 
-Пользователь описывает бизнес-задачу. Твоя задача — провести через 5-шаговый алгоритм AJTBD, подключая другие скиллы по необходимости.
+The user describes a Business task (бизнес-задача). Your job is to walk them through the 5-step AJTBD algorithm, plugging in other skills as needed.
 
-### Принцип
+### Principle
 
-**Бизнес-задачи решаются алгоритмом применения механик над графами работ разных сегментов.** Инновации — не более чем применение механик создания ценности и продуктовой стратегии.
+**Business tasks are solved by an algorithm of applying Mechanics over Job Graphs (графы работ) of different Segments.** Innovation is nothing more than applying value-creation Mechanics (механики) and product strategy.
 
-**Стратегия продукта** = решение о том, за какие части графов каких сегментов мы конкурируем.
+**Product strategy** = the decision about which parts of which Segments' graphs we compete for.
 
-### Типичные бизнес-задачи, для которых работает AJTBD
+### Typical Business tasks AJTBD works for
 
-- Найти сегмент для нового продукта
-- Создать ценность продукта
-- Вырастить конверсию в регистрацию / оплату
-- Снизить отток, улучшить удержание, увеличить возвращаемость
-- Масштабировать существующий продукт
-- Эффективнее привлекать клиентов
-- Выходить из прямой конкуренции
-- Создавать прорывные (disruptive) продукты
-- Вырастить средний чек
-- Коммуницировать продукт
+- Find a Segment for a new product
+- Create product Value
+- Grow signup / payment conversion
+- Reduce churn, improve retention, increase return rate
+- Scale an existing product
+- Acquire customers more efficiently
+- Escape direct competition
+- Build disruptive products
+- Grow average check
+- Communicate the product
 
-### 5-шаговый алгоритм
+### The 5-step algorithm
 
-#### Шаг 1. Определить бизнес-задачу с максимальным ROI
+#### Step 1. Identify the Business task with maximum ROI
 
-Найти точку роста. Откуда брать:
-- Юнит-экономика (какая метрика даст максимальный рост при улучшении?)
-- Знание о возможности создать ценность на рынке
-- Стратегические приоритеты бизнеса
+Find the growth point. Where to look:
+- Unit economics (which metric, if improved, yields the biggest growth?)
+- Knowledge about an opportunity to create Value in the market
+- Business strategic priorities
 
-**Типичные ошибки:**
-- Генерировать гипотезы решений без исследований
-- Начинать исследование без логики «с кем и про что говорить»
+**Typical mistakes:**
+- Generating Solution Hypotheses (гипотезы) without research
+- Starting research without a clear logic of "who to talk to and about what"
 
-#### Шаг 2. Экспертно предположить сегменты и их графы
+#### Step 2. Hypothesize Segments and their Job Graphs (expert)
 
-→ Используй `/segment-find` для поиска сегментов
-→ Используй `/job-describe` для описания работ
-→ Используй `/job-graph` для построения графов
+→ Use `/segment-find` to find Segments
+→ Use `/job-describe` to describe Jobs
+→ Use `/job-graph` to build Job Graphs
 
-Предположить:
-- Какие сегменты есть на рынке (по работам)
-- Как выглядят их графы работ
-- Какие текущие решения нанимают
+Hypothesize:
+- What Segments exist in the market (by Jobs)
+- What their Job Graphs look like
+- What current Solutions they hire
 
-#### Шаг 3. Предположить применимые механики
+#### Step 3. Hypothesize applicable Mechanics
 
-→ Используй `/value-mechanics` для генерации механик
+→ Use `/value-mechanics` to generate Mechanics
 
-Из экспертного списка сегментов и их графов предположить:
-- Какие механики создания ценности имеют потенциал
-- Какие механики решения бизнес-задач применимы
-- Для каких частей графа
+From the expert list of Segments and their graphs, hypothesize:
+- Which value-creation Mechanics have potential
+- Which business-task-solving Mechanics apply
+- For which parts of the graph
 
-#### Шаг 4. Провести исследование
+#### Step 4. Run research
 
-Определить, что нужно проверить:
-- **Качественное исследование** (AJTBD-интервью) — узнать реальные работы, графы, проблемы
-- **Количественная валидация** — размер сегментов, платёжеспособность, удовлетворённость
-- **Экспертные интервью** — подтвердить гипотезы
-- **Анализ конкурентов** → `/consideration-set`
+Decide what needs to be validated:
+- **Qualitative research** (AJTBD interviews) — uncover real Jobs, graphs, problems
+- **Quantitative validation** — Segment size, ability to pay, satisfaction
+- **Expert interviews** — confirm Hypotheses
+- **Competitor analysis** → `/consideration-set`
 
-#### Шаг 5. Генерировать гипотезы механик
+#### Step 5. Generate Mechanic Hypotheses
 
-На основе данных из исследования:
-- Какие механики создания ценности применить
-- Какие механики решения бизнес-задач использовать
-- Приоритизировать по: ROI, сложности, скорости реализации
+Based on research data:
+- Which value-creation Mechanics to apply
+- Which business-task-solving Mechanics to use
+- Prioritize by: ROI, complexity, speed of execution
 
-### 50 механик решения бизнес-задач (категории)
+### 50 Mechanics for solving Business tasks (categories)
 
-**Механики роста ценности:**
-- Починить проблемы в критической последовательности
-- Убить работы (упростить)
-- Выполнять больше работ одним решением
-- Выйти на высокоуровневую работу
-- Забрать работу с человека
+**Value growth Mechanics:**
+- Fix problems in the Critical Sequence (критическая последовательность)
+- Kill Jobs (simplify)
+- Do more Jobs with one Solution
+- Move up to a higher-level Job
+- Take the Job off the human
 
-**Механики роста выручки:**
-- Сместиться в соседний сегмент (более платёжеспособный)
-- Активировать в дополнительные работы (cross-sell)
-- Выйти на предыдущую/следующую работу
-- Разбить пользу и давать её раньше
+**Revenue growth Mechanics:**
+- Shift to an adjacent Segment (more solvent)
+- Activate into additional Jobs (cross-sell)
+- Move to the previous / next Job
+- Split the benefit and deliver it earlier
 
-**Механики привлечения:**
-- Коммуницировать через работы (не через фичи)
-- Создать канал через предыдущую работу
-- Выполнить виральные работы
+**Acquisition Mechanics:**
+- Communicate via Jobs (not features)
+- Build a channel through the previous Job
+- Perform viral Jobs
 
-**Механики удержания:**
-- Чинить проблемы в критической последовательности
-- Активировать в новые работы
-- Растить частотность использования
+**Retention Mechanics:**
+- Fix problems in the Critical Sequence
+- Activate into new Jobs
+- Grow usage frequency
 
-**Механики выхода из конкуренции:**
-- Конкурировать за другую часть графа
-- Выйти на работу выше уровнем
-- Объединить работы, которые конкуренты выполняют по отдельности
+**Escape-from-competition Mechanics:**
+- Compete for a different part of the graph
+- Move to a higher-level Job
+- Combine Jobs that competitors do separately
 
 ---
 
-## Формат ответа
+## Response format
 
-### Решение бизнес-задачи: [формулировка задачи]
+### Solving the Business task: [task statement]
 
-#### Шаг 1: Точка роста
+#### Step 1: Growth point
 
-- **Бизнес-задача:** [конкретная формулировка]
-- **Почему это точка роста:** [обоснование — юнит-экономика, стратегия, рыночная возможность]
-- **Метрика успеха:** [что измеряем]
+- **Business task:** [concrete statement]
+- **Why this is the growth point:** [reasoning — unit economics, strategy, market opportunity]
+- **Success metric:** [what we measure]
 
-#### Шаг 2: Сегменты и графы (экспертные гипотезы)
+#### Step 2: Segments and graphs (expert Hypotheses)
 
-| Сегмент | Big Job | Текущее решение | Размер | Маржинальность |
-|---------|---------|-----------------|--------|----------------|
+| Segment | Big Job | Current Solution | Size | Margin |
+|---------|---------|------------------|------|--------|
 | ... | ... | ... | ... | ... |
 
-**Фокусный сегмент:** [какой и почему]
+**Focus Segment:** [which one and why]
 
-#### Шаг 3: Применимые механики
+#### Step 3: Applicable Mechanics
 
-| # | Механика | К какой работе | Гипотеза | ROI-потенциал |
-|---|----------|---------------|----------|---------------|
-| 1 | ... | ... | ... | высокий/средний |
+| # | Mechanic | For which Job | Hypothesis | ROI potential |
+|---|----------|---------------|------------|---------------|
+| 1 | ... | ... | ... | high/medium |
 
-#### Шаг 4: План исследования
+#### Step 4: Research plan
 
-| Что проверить | Метод | С кем | Кол-во |
-|---------------|-------|-------|--------|
-| ... | AJTBD-интервью / опрос / анализ | ... | ... |
+| What to validate | Method | With whom | Quantity |
+|------------------|--------|-----------|----------|
+| ... | AJTBD interview / survey / analysis | ... | ... |
 
-#### Шаг 5: Гипотезы решений (после исследования или экспертно)
+#### Step 5: Solution Hypotheses (post-research or expert)
 
-**Гипотеза 1:** [конкретное решение]
-- Механика: [какая]
-- Сегмент: [для кого]
-- Ожидаемый эффект: [на какую метрику и на сколько]
-- Как проверить: [MVP / эксперимент]
+**Hypothesis 1:** [concrete Solution]
+- Mechanic: [which one]
+- Segment: [for whom]
+- Expected effect: [which metric and by how much]
+- How to validate: [MVP / experiment]
 
-**Гипотеза 2:** ...
+**Hypothesis 2:** ...
 
-#### Следующие шаги
+#### Next steps
 
-1. [конкретный первый шаг]
-2. [второй шаг]
-3. [третий шаг]
+1. [concrete first step]
+2. [second step]
+3. [third step]
 
 ---
 
-**Бизнес-задача:**
+**Business task:**
 
 $ARGUMENTS

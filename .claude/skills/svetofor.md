@@ -1,154 +1,155 @@
 ---
-description: Универсальный анализ по методу "Светофор" — красное/жёлтое/зелёное для любого объекта
+description: Universal analysis via the "Svetofor" (traffic light) method — red/yellow/green for any object
+language: en
 ---
 
-# Светофор — Универсальный анализ
+# Svetofor — Universal Analysis
 
-Ты — эксперт-аналитик. Твоя задача — провести структурированный анализ по методу "Светофор" для предоставленного материала.
+You are an expert analyst. Run a structured analysis on the provided material using the "Svetofor" (traffic light) method.
 
-Метод "Светофор" разделяет все находки на три категории:
-- **🔴 Красное** — критичные проблемы, которые ОБЯЗАТЕЛЬНО нужно исправить. Риски, ошибки, слабые места, которые могут привести к провалу.
-- **🟡 Жёлтое** — зоны внимания, которые ЖЕЛАТЕЛЬНО улучшить. Не критично, но улучшение даст заметный эффект.
-- **🟢 Зелёное** — сильные стороны, которые стоит СОХРАНИТЬ и усилить. То, что работает хорошо.
-
----
-
-## Шаг 0. ОПРЕДЕЛИ КОНТЕКСТ
-
-Прежде чем анализировать, определи:
-
-1. **Что анализируем?** (тип объекта: встреча, документ, процесс, предложение, код, стратегия, etc.)
-2. **Какая цель у этого объекта?** (что он должен был достичь)
-3. **Кто целевая аудитория / стейкхолдеры?**
-4. **По каким критериям оценивать?** (выбери 5-8 релевантных критериев из списка ниже или предложи свои)
-
-### Библиотека критериев (выбери подходящие):
-
-**Для встреч и переговоров:**
-- Структура и тайминг
-- Активное слушание (соотношение говорения)
-- Качество вопросов
-- Выявление потребностей
-- Презентация ценности
-- Работа с возражениями
-- Фиксация договорённостей и next steps
-- Раппорт и эмоциональный контакт
-
-**Для документов и предложений (КП, договоры, презентации):**
-- Ясность и структура
-- Убедительность аргументации
-- Полнота информации
-- Фокус на выгодах клиента (не на фичах)
-- Визуальное оформление
-- Call to action / следующие шаги
-- Юридическая корректность
-- Конкурентное позиционирование
-
-**Для процессов и стратегий:**
-- Чёткость целей и метрик
-- Реалистичность сроков
-- Распределение ответственности
-- Учёт рисков
-- Масштабируемость
-- Эффективность ресурсов
-- Обратная связь и итерации
-
-**Для кода и технических решений:**
-- Архитектура и структура
-- Читаемость и поддерживаемость
-- Безопасность
-- Производительность
-- Покрытие тестами
-- Обработка ошибок
-- Документация
+The method splits all findings into three categories:
+- **🔴 Red** — critical problems that MUST be fixed. Risks, errors, weak spots that can cause failure.
+- **🟡 Yellow** — attention zones that SHOULD be improved. Not critical, but improvement gives a noticeable lift.
+- **🟢 Green** — strengths to KEEP and amplify. What works well.
 
 ---
 
-## Шаг 1. СВОДКА
+## Step 0. DEFINE CONTEXT
+
+Before analyzing, establish:
+
+1. **What are we analyzing?** (object type: meeting, document, process, proposal, code, strategy, etc.)
+2. **What goal does this object serve?** (what it was supposed to achieve)
+3. **Who is the target audience / stakeholders?**
+4. **By what criteria do we evaluate?** (pick 5–8 relevant criteria from the list below, or propose your own)
+
+### Criteria library (pick what fits):
+
+**For meetings and negotiations:**
+- Structure and timing
+- Active listening (talk-time ratio)
+- Quality of questions
+- Needs discovery
+- Value presentation
+- Objection handling
+- Capturing agreements and next steps
+- Rapport and emotional contact
+
+**For documents and proposals (КП, contracts, presentations):**
+- Clarity and structure
+- Argument persuasiveness
+- Completeness of information
+- Focus on client benefits (not features)
+- Visual design
+- Call to action / next steps
+- Legal correctness
+- Competitive positioning
+
+**For processes and strategies:**
+- Goal and metric clarity
+- Timeline realism
+- Responsibility distribution
+- Risk handling
+- Scalability
+- Resource efficiency
+- Feedback and iteration
+
+**For code and technical solutions:**
+- Architecture and structure
+- Readability and maintainability
+- Security
+- Performance
+- Test coverage
+- Error handling
+- Documentation
+
+---
+
+## Step 1. SUMMARY
 
 ```
-Объект анализа: [Что именно анализируем]
-Цель объекта:   [Что он должен достичь]
-Общая оценка:   🔴🟡🟢 [X/10]
-Вердикт:        [Одно предложение — готово / нужна доработка / требует переделки]
+Analysis object: [What exactly we're analyzing]
+Object goal:     [What it should achieve]
+Overall score:   🔴🟡🟢 [X/10]
+Verdict:         [One sentence — ready / needs work / requires rebuild]
 ```
 
 ---
 
-## Шаг 2. КРАСНОЕ — Исправить обязательно
+## Step 2. RED — Must fix
 
-Критичные проблемы, которые нужно устранить. Каждый пункт — конкретный, с доказательством и рекомендацией.
+Critical problems. Each item — concrete, with evidence and a recommendation.
 
-### 🔴 [Проблема 1]
-- **Что не так:** [Конкретное описание]
-- **Доказательство:** [Цитата / факт / пример из материала]
-- **Почему критично:** [Какой риск или последствие]
-- **Как исправить:** [Конкретная рекомендация]
+### 🔴 [Problem 1]
+- **What's wrong:** [Concrete description]
+- **Evidence:** [Quote / fact / example from material]
+- **Why critical:** [Risk or consequence]
+- **How to fix:** [Concrete recommendation]
 
-### 🔴 [Проблема 2]
+### 🔴 [Problem 2]
 ...
 
 ---
 
-## Шаг 3. ЖЁЛТОЕ — Желательно улучшить
+## Step 3. YELLOW — Should improve
 
-Зоны, которые не ломают результат, но заметно его улучшат.
+Zones that don't break the result but visibly improve it.
 
-### 🟡 [Зона внимания 1]
-- **Что можно улучшить:** [Описание]
-- **Доказательство:** [Цитата / факт / пример]
-- **Какой эффект даст улучшение:** [Конкретная выгода]
-- **Рекомендация:** [Что сделать]
+### 🟡 [Attention zone 1]
+- **What can improve:** [Description]
+- **Evidence:** [Quote / fact / example]
+- **Expected benefit:** [Concrete payoff]
+- **Recommendation:** [What to do]
 
-### 🟡 [Зона внимания 2]
+### 🟡 [Attention zone 2]
 ...
 
 ---
 
-## Шаг 4. ЗЕЛЁНОЕ — Сохранить и усилить
+## Step 4. GREEN — Keep and amplify
 
-Сильные стороны, которые работают. Важно их осознать и закрепить.
+Strengths that work. Worth recognizing and reinforcing.
 
-### 🟢 [Сильная сторона 1]
-- **Что хорошо:** [Описание]
-- **Доказательство:** [Цитата / факт / пример]
-- **Почему это эффективно:** [Объяснение]
-- **Как усилить:** [Опционально — как сделать ещё лучше]
+### 🟢 [Strength 1]
+- **What's good:** [Description]
+- **Evidence:** [Quote / fact / example]
+- **Why it's effective:** [Explanation]
+- **How to amplify:** [Optional — how to push it further]
 
-### 🟢 [Сильная сторона 2]
+### 🟢 [Strength 2]
 ...
 
 ---
 
-## Шаг 5. СЧЁТЧИК СВЕТОФОРА
+## Step 5. TRAFFIC LIGHT COUNTER
 
-| Категория | Кол-во | Основные темы |
-|-----------|--------|---------------|
-| 🔴 Красное | X | [перечисление] |
-| 🟡 Жёлтое | Y | [перечисление] |
-| 🟢 Зелёное | Z | [перечисление] |
-
----
-
-## Шаг 6. ТОП-3 ДЕЙСТВИЯ
-
-Три самых важных действия по приоритету (начиная с красного):
-
-1. **[Действие 1]** — 🔴 [Почему и что конкретно сделать]
-2. **[Действие 2]** — 🔴/🟡 [Почему и что конкретно сделать]
-3. **[Действие 3]** — 🟡 [Почему и что конкретно сделать]
+| Category | Count | Main themes |
+|---|---|---|
+| 🔴 Red | X | [list] |
+| 🟡 Yellow | Y | [list] |
+| 🟢 Green | Z | [list] |
 
 ---
 
-## Правила анализа
+## Step 6. TOP-3 ACTIONS
 
-1. **Конкретность** — каждый пункт подкреплён фактом, цитатой или примером из материала. Никаких общих фраз.
-2. **Баланс** — обязательно найди и красное, и зелёное. Даже в плохом материале есть что-то хорошее, и наоборот.
-3. **Действенность** — каждая рекомендация должна быть конкретной и выполнимой. Не "улучшить коммуникацию", а "задавать минимум 3 открытых вопроса перед презентацией решения".
-4. **Приоритизация** — красное всегда важнее жёлтого. ТОП-3 действий начинается с самого критичного.
-5. **Честность** — не смягчай красное. Если что-то плохо — скажи прямо. пользователь ценит прямую обратную связь.
+Three most important actions by priority (starting from red):
+
+1. **[Action 1]** — 🔴 [Why and what concretely to do]
+2. **[Action 2]** — 🔴/🟡 [Why and what concretely to do]
+3. **[Action 3]** — 🟡 [Why and what concretely to do]
 
 ---
 
-Материал для анализа:
+## Analysis rules
+
+1. **Concreteness** — every item backed by fact, quote, or example from the material. No generalities.
+2. **Balance** — always find both red and green. Even bad material has something good, and vice versa.
+3. **Actionability** — every recommendation must be concrete and executable. Not "improve communication" but "ask at least 3 open questions before presenting the solution".
+4. **Prioritization** — red is always more important than yellow. TOP-3 actions starts with the most critical.
+5. **Honesty** — don't soften the red. If something is bad — say so directly. The user values direct feedback.
+
+---
+
+Material to analyze:
 $ARGUMENTS

@@ -1,114 +1,120 @@
+---
+language: en
+methodology_origin: ru
+---
+
 # Skill: /segment-find
 
-> Поиск и ранжирование сегментов клиентов по работам (AJTBD + ABCDX)
+> Finding and ranking customer Segments by Jobs (AJTBD + ABCDX)
 
-## Триггеры
+## Triggers
 
 - `/segment-find`
+- "find the Segments"
+- "who is our customer"
+- "segmentation"
+- "which Segment to focus on"
 - "найди сегменты"
-- "кто наш клиент"
-- "сегментация"
-- "на какой сегмент фокусироваться"
 
-## Инструкция
+## Instructions
 
-Пользователь описывает продукт, рынок или ситуацию. Твоя задача — найти и ранжировать сегменты по работам, выбрав экономически самый привлекательный.
+The user describes a product, market, or situation. Your task is to find and rank Segments (сегменты) by Jobs, picking the economically most attractive one.
 
-### Сегментация по работам — главная сегментация для продукта
+### Segmentation by Jobs — the main segmentation for a product
 
-**Сегмент — группа людей/бизнесов, объединённых похожими парами работа+решение.**
+**A Segment is a group of people/businesses united by similar Job+Solution pairs.**
 
-Типичные сегментации (по доходу, возрасту, должности) дают ложное ощущение ясности, но не содержат причинно-следственных связей. 20-летний может купить квартиру бизнес-класса, а состоятельная предпринимательница — пять квартир эконом-класса.
+Typical segmentations (by income, age, role) give a false sense of clarity but contain no cause-and-effect. A 20-year-old can buy a premium apartment, and a wealthy entrepreneur can buy five economy ones.
 
-**Сегментация по работам позволяет:**
-- Понять ПОЧЕМУ люди покупают
-- Выбрать экономически самый привлекательный сегмент
-- Создавать ценность прицельно
-- Эффективнее привлекать клиентов
-- Коммуницировать продукт через работы
+**Segmentation by Jobs lets you:**
+- Understand WHY people buy
+- Pick the economically most attractive Segment
+- Create Value with precision
+- Acquire customers more efficiently
+- Communicate the product through Jobs
 
-### Кейс: LiFT (агентство личного бренда)
+### Case: LiFT (personal brand agency)
 
-До AJTBD: фокус на экспертах, которые хотят клиентов из соцсетей, нет бюджета — сложный, низкомаржинальный сегмент.
+Before AJTBD: focus on experts who want clients from social media, no budget — a tough, low-margin Segment.
 
-После AJTBD-исследования: нашли сегмент топ-менеджеров с бюджетами и высокой мотивацией → средний чек x3, выручка +60% за 3 месяца.
+After AJTBD research: found a Segment of top managers with budgets and high motivation → average check x3, revenue +60% in 3 months.
 
-### Процесс поиска сегментов
+### Segment discovery process
 
-1. **Экспертно предположи сегменты** — гипотезы работ разных групп людей
-2. **Для каждого сегмента опиши:**
-   - Работы (Big + Core)
-   - Текущие решения
-   - Проблемы с текущими решениями
-   - Удовлетворённость
-3. **Ранжируй по экономической привлекательности:**
-   - Размер сегмента
-   - Платёжеспособность и бюджет на выполнение работы
-   - Маржинальность клиента
-   - Удовлетворённость текущим решением (чем ниже — тем больше возможность)
-   - Доступность (можно ли до них дотянуться)
-4. **Примени ABCDX-сегментацию** (для существующих продуктов)
+1. **Hypothesize Segments from expertise** — Hypotheses about Jobs of different groups
+2. **For each Segment describe:**
+   - Jobs (Big + Core)
+   - Current Solutions
+   - Problems with current Solutions
+   - Satisfaction
+3. **Rank by economic attractiveness:**
+   - Segment size
+   - Ability to pay and budget for the Job
+   - Customer margin
+   - Satisfaction with the current Solution (the lower — the bigger the opportunity)
+   - Reachability (can you actually get to them)
+4. **Apply ABCDX segmentation** (for existing products)
 
-### ABCDX-сегментация
+### ABCDX segmentation
 
-| Сегмент | Описание | Что делать |
-|---------|----------|------------|
-| **A** | Высокая маржинальность, высокая удовлетворённость | Масштабировать привлечение |
-| **B** | Высокая маржинальность, средняя удовлетворённость | Растить ценность |
-| **C** | Низкая маржинальность, удовлетворены | Автоматизировать обслуживание |
-| **D** | Низкая маржинальность, не удовлетворены | Не тратить ресурсы |
-| **X** | Потенциально огромный, но пока не клиенты | Исследовать и экспериментировать |
+| Segment | Description | What to do |
+|---------|-------------|------------|
+| **A** | High margin, high satisfaction | Scale acquisition |
+| **B** | High margin, medium satisfaction | Grow Value |
+| **C** | Low margin, satisfied | Automate service |
+| **D** | Low margin, unsatisfied | Don't spend resources |
+| **X** | Potentially huge, but not customers yet | Research and experiment |
 
-### B2B-специфика
+### B2B specifics
 
-- В B2B-сделке участвуют: Бизнес-Заказчик, ЛПР, ЛВР, держатель бюджета, рекомендатели, саботажники, конечные пользователи
-- **90% мотивации при покупке играют ЛИЧНЫЕ работы**, а не бизнес-работы
-- Личные работы = личная мотивация выполнять поставленные бизнес-цели
-- Важно знать работы ВСЕХ ролей в сделке
+- A B2B deal involves: Business Buyer, decision-maker (ЛПР), influencer (ЛВР), budget holder, recommenders, saboteurs, end users
+- **90% of purchase motivation comes from PERSONAL Jobs**, not business Jobs
+- Personal Jobs = personal motivation to execute the assigned business goals
+- It's important to know the Jobs of ALL roles in the deal
 
-### Предупреждения
+### Warnings
 
-- Экспертные гипотезы сегментов = рискованно. На рынке могут быть более привлекательные сегменты, которых вы не знаете
-- Для валидации нужны: AJTBD-интервью (качественное) → количественная валидация
-- Минимизируйте риск: не принимайте крупных решений на гипотезах без валидации
+- Expert Hypotheses about Segments = risky. The market may contain more attractive Segments you don't know about
+- Validation requires: AJTBD interviews (qualitative) → quantitative validation
+- Minimize risk: don't make large decisions on Hypotheses without validation
 
 ---
 
-## Формат ответа
+## Response format
 
-### Сегменты: [продукт/рынок]
+### Segments: [product/market]
 
-#### Карта сегментов
+#### Segment map
 
-| # | Сегмент | Работа | Текущее решение | Бюджет | Удовлетворённость | ABCDX |
-|---|---------|--------|-----------------|--------|-------------------|-------|
+| # | Segment | Job | Current Solution | Budget | Satisfaction | ABCDX |
+|---|---------|-----|------------------|--------|--------------|-------|
 | 1 | ... | ... | ... | ... | ... | A/B/C/D/X |
 | 2 | ... | ... | ... | ... | ... | ... |
 
-#### Ранжирование по привлекательности
+#### Ranking by attractiveness
 
-| # | Сегмент | Размер | Маржинальность | Возможность | Доступность | Итого |
-|---|---------|--------|----------------|-------------|-------------|-------|
+| # | Segment | Size | Margin | Opportunity | Reachability | Total |
+|---|---------|------|--------|-------------|--------------|-------|
 | 1 | ... | .../5 | .../5 | .../5 | .../5 | .../20 |
 
-#### Рекомендация
+#### Recommendation
 
-**Фокусный сегмент:** [какой и почему]
-**Почему не другие:** [краткое обоснование]
-**Риски гипотезы:** [что может быть не так]
+**Focus Segment:** [which one and why]
+**Why not others:** [brief reasoning]
+**Hypothesis risks:** [what could be wrong]
 
-#### B2B-роли (если применимо)
+#### B2B roles (if applicable)
 
-| Роль | Бизнес-работа | Личная работа |
-|------|--------------|---------------|
-| ЛПР | ... | ... |
-| Бизнес-заказчик | ... | ... |
-| Конечный пользователь | ... | ... |
+| Role | Business Job | Personal Job |
+|------|--------------|--------------|
+| Decision-maker (ЛПР) | ... | ... |
+| Business Buyer | ... | ... |
+| End user | ... | ... |
 
-**Следующий шаг:** Для описания работ фокусного сегмента — `/job-describe`. Для построения графа — `/job-graph`.
+**Next step:** To describe the focus Segment's Jobs — `/job-describe`. To build the graph — `/job-graph`.
 
 ---
 
-**Продукт/рынок для сегментации:**
+**Product/market for segmentation:**
 
 $ARGUMENTS

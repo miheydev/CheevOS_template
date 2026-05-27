@@ -1,94 +1,100 @@
+---
+language: en
+methodology_origin: ru
+---
+
 # Skill: /job-describe
 
-> Описание работ клиентов по формуле Advanced Jobs To Be Done
+> Describing customer Jobs using the Advanced Jobs To Be Done formula
 
-## Триггеры
+## Triggers
 
 - `/job-describe`
+- "describe the Jobs"
+- "what Jobs do customers have"
+- "what do customers want"
+- "formulate the Jobs"
 - "опиши работы"
-- "какие работы у клиентов"
-- "что хотят клиенты"
-- "сформулируй работы"
 
-## Инструкция
+## Instructions
 
-Пользователь описывает ситуацию, продукт, клиента или рынок. Твоя задача — описать работы клиентов по формуле AJTBD.
+The user describes a situation, product, customer, or market. Your task is to describe customer Jobs (работы) using the AJTBD formula.
 
-### Ключевые принципы AJTBD
+### Key AJTBD principles
 
-**Работа — главная единица анализа.** Работа = выполнить цель/задачу, перейти из точки А (задача не выполнена) в точку Б (задача выполнена, результат получен).
+**The Job is the main unit of analysis.** A Job = achieving a goal/task, moving from Point A (job not done) to Point B (job done, result received).
 
-**Работа первична, решения заменяемы.** Продукт, его польза, функциональность, интерфейсы, тексты — всё производное от работы. Людям не нужны наши продукты — они хотят выполнить свои цели.
+**The Job is primary, Solutions are replaceable.** The product, its benefit, functionality, interfaces, copy — all derivative of the Job. People don't need our products — they want to accomplish their goals.
 
-**Решение** — любой продукт, сервис или действие, которое человек использует для выполнения работы. Акт выбора решения = «нанять решение на работу».
+**A Solution (решение)** is any product, service, or action a person uses to do a Job. The act of choosing a Solution = "hiring a Solution for a Job".
 
-### Формула описания работы
+### The Job-description formula
 
-Полная формула (от максимальной к минимальной детализации):
+Full formula (from maximum to minimum detail):
 
-1. **Когда** [контекст/ситуация]
-2. **Я в контексте** [жизненная ситуация, роль]
-3. **У меня есть прошлый опыт и/или знания** [релевантный опыт]
-4. **У меня есть психологические особенности** [страхи, убеждения]
-5. **Испытываю негативные эмоции** [что чувствует в точке А]
-6. **Случился триггер** [событие, запустившее действие]
-7. **Хочу получить ожидаемый результат** [точка Б]
-8. **С критериями** [как именно должен быть достигнут результат]
-9. **Чтобы** [работа выше уровнем / зачем это нужно]
-10. **И чувствовать** [эмоциональное состояние в точке Б]
+1. **When** [context/situation]
+2. **I'm in the context of** [life situation, role]
+3. **I have past experience and/or knowledge** [relevant experience]
+4. **I have psychological traits** [fears, beliefs]
+5. **I'm feeling negative emotions** [what they feel at Point A]
+6. **A Trigger happened** [event that started the action]
+7. **I want to get the expected result** [Point B]
+8. **With criteria** [exactly how the result should be achieved]
+9. **In order to** [higher-level Job / why this matters]
+10. **And to feel** [emotional state at Point B]
 
-**Минимальное описание:** «хочу + глагол» (например: «хочу закрыть попап с куками»).
+**Minimum description:** "I want + verb" (e.g.: "I want to close the cookie popup").
 
-### Уровни работ
+### Job levels
 
-- **Big Job** — высокоуровневая цель (например: «вырастить бизнес», «обеспечить семью»)
-- **Core Job** — основная работа, на которой фокусируется продукт (например: «привлекать лидов с целевыми показателями»)
-- **Small Job** — микро-работы внутри Core Job (например: «настроить таргетинг в рекламном кабинете»)
+- **Big Job (Большая Работа)** — high-level goal (e.g.: "grow the business", "provide for the family")
+- **Core Job (Ядровая работа)** — the main Job the product focuses on (e.g.: "acquire leads at target metrics")
+- **Small Job** — micro-Jobs inside the Core Job (e.g.: "configure targeting in the ad cabinet")
 
-### Алгоритм
+### Algorithm
 
-1. **Определи контекст** — кто эти люди, в какой ситуации, что за продукт/рынок
-2. **Выдели Big Jobs** — 1-3 высокоуровневые работы
-3. **Раскрой Core Jobs** — 3-7 основных работ, которые выполняются для Big Job
-4. **Детализируй Small Jobs** — по 2-5 микро-работ для каждой Core Job (если нужно)
-5. **Для каждой работы** опиши по формуле (глубина зависит от задачи пользователя)
+1. **Set the context** — who these people are, in what situation, what product/market
+2. **Identify Big Jobs** — 1-3 high-level Jobs
+3. **Unpack Core Jobs** — 3-7 main Jobs performed for the Big Job
+4. **Detail Small Jobs** — 2-5 micro-Jobs per Core Job (if needed)
+5. **For each Job** describe via the formula (depth depends on user's task)
 
-### Важно
+### Important
 
-- Работа — это ВСЕГДА глагол в неопределённой форме: найти, уволить, поесть, убедиться
-- Не путай работы с проблемами: «автоматизировать маркетинг» — работа, «маркетинг не автоматизирован» — проблема
-- Работы можно писать экспертно (гипотезы), но предупреди о рисках: на рынке могут быть другие сегменты с другими работами
-- Каждое слово в описании работы на вес золота — изменение одного слова может кардинально изменить продукт
+- A Job is ALWAYS a verb in infinitive form: find, fire, eat, confirm
+- Don't confuse Jobs with problems: "automate marketing" — Job, "marketing is not automated" — problem
+- You can write Jobs from expertise (Hypotheses), but warn about risks: the market may contain other Segments with other Jobs
+- Every word in a Job description is gold — changing a single word can radically change the product
 
 ---
 
-## Формат ответа
+## Response format
 
-### Работы клиентов: [название продукта/ситуации]
+### Customer Jobs: [product/situation name]
 
-**Контекст:** [краткое описание ситуации]
+**Context:** [brief situation summary]
 
-#### Big Jobs (высокоуровневые)
-| # | Работа | Триггер | Ожидаемый результат |
-|---|--------|---------|---------------------|
+#### Big Jobs (high-level)
+| # | Job | Trigger | Expected result |
+|---|-----|---------|-----------------|
 | 1 | ... | ... | ... |
 
-#### Core Jobs (основные)
-| # | Работа | Для Big Job | Текущее решение | Удовлетворённость |
-|---|--------|-------------|-----------------|-------------------|
-| 1 | ... | ... | ... | ?/низкая/средняя/высокая |
+#### Core Jobs (main)
+| # | Job | For which Big Job | Current Solution | Satisfaction |
+|---|-----|-------------------|------------------|--------------|
+| 1 | ... | ... | ... | ?/low/medium/high |
 
-#### Small Jobs (детальные) — если нужны
-| # | Работа | Для Core Job | Формула |
-|---|--------|-------------|---------|
-| 1 | ... | ... | Когда [контекст], хочу [результат], чтобы [Big Job] |
+#### Small Jobs (detailed) — if needed
+| # | Job | For which Core Job | Formula |
+|---|-----|--------------------|---------|
+| 1 | ... | ... | When [context], I want [result], in order to [Big Job] |
 
-**Риски гипотез:** [предупреждение, если работы написаны экспертно без исследований]
+**Hypothesis risks:** [warning if the Jobs are written from expertise without research]
 
-**Следующий шаг:** Для построения графа работ используй `/job-graph`. Для поиска сегментов — `/segment-find`.
+**Next step:** To build the Job Graph use `/job-graph`. To find Segments — `/segment-find`.
 
 ---
 
-**Вход пользователя:**
+**User input:**
 
 $ARGUMENTS

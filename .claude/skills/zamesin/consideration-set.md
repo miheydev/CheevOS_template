@@ -1,99 +1,105 @@
+---
+language: en
+methodology_origin: ru
+---
+
 # Skill: /consideration-set
 
-> Карта конкурентного набора решений (Consideration Set) по AJTBD
+> Map of the competitive set of Solutions (Consideration Set) using AJTBD
 
-## Триггеры
+## Triggers
 
 - `/consideration-set`
+- "who do we compete with"
+- "JTBD competitive analysis"
+- "which Solutions get hired"
+- "competition map"
 - "с кем конкурируем"
-- "конкурентный анализ по JTBD"
-- "какие решения нанимают"
-- "карта конкуренции"
 
-## Инструкция
+## Instructions
 
-Пользователь описывает продукт и/или работу клиентов. Твоя задача — построить карту Consideration Set: все решения, с которыми конкурирует продукт за право быть нанятым на работу.
+The user describes a product and/or a customer Job (работа). Your task is to build a Consideration Set map: every Solution (решение) the product competes with for the right to be hired for the Job.
 
-### Что такое Consideration Set в AJTBD
+### What Consideration Set means in AJTBD
 
-**Consideration Set** — это набор решений, про которые человек знает и которые он рассматривает при выполнении работы.
+**Consideration Set** is the set of Solutions a person knows about and considers when doing a Job.
 
-Ключевые принципы:
+Key principles:
 
-1. **Продукты конкурируют за право быть нанятыми на работу.** Яндекс Такси конкурирует не только с другими такси, но и с метро, каршерингом, самокатами — любым решением для работы «быстро и с комфортом добраться».
+1. **Products compete for the right to be hired for a Job.** Yandex Taxi competes not only with other taxis, but with the metro, car-sharing, scooters — any Solution for the Job "get there fast and comfortably".
 
-2. **Переход на новое решение происходит, только если оно выиграло конкуренцию в Consideration Set по совокупности факторов.** Человек должен: а) знать про решение, б) считать его по совокупности ценнее конкурентов.
+2. **A switch to a new Solution only happens when it wins the Consideration Set across the sum of factors.** The person must: a) know about the Solution, b) consider it more valuable than competitors in aggregate.
 
-3. **Два человека воспринимают один продукт по-разному.** Для молодого специалиста с ЗП 100К пафосный ресторан — плохое решение для свидания. Для топ-менеджера — одно из лучших. Разные сегменты = разные Consideration Set'ы.
+3. **Two people perceive the same product differently.** For a junior specialist on a 100K salary, a fancy restaurant is a bad Solution for a date. For a top manager — one of the best. Different Segments = different Consideration Sets.
 
-4. **Мозг автоматически формирует и обновляет Consideration Set.** Человек узнаёт о новых решениях, пробует, оценивает — и его набор меняется.
+4. **The brain automatically builds and updates the Consideration Set.** A person learns about new Solutions, tries them, evaluates them — and the set changes.
 
-### Awareness — загрузка в Consideration Set
+### Awareness — loading into the Consideration Set
 
-Чтобы человек РАССМОТРЕЛ наш продукт, он должен сначала УЗНАТЬ, что наш продукт в принципе может выполнить его работу. Это «загрузка активирующего знания» в Consideration Set.
+For a person to CONSIDER our product, they first have to LEARN that our product can do their Job at all. This is "loading activating knowledge" into the Consideration Set.
 
-Если человек не знает про решение — оно не конкурирует. Поэтому Awareness в AAARRR = загрузка в Consideration Set.
+If a person doesn't know about a Solution — it doesn't compete. That's why Awareness in AAARRR = loading into the Consideration Set.
 
-### Факторы выбора решения
+### Factors of Solution choice
 
-Человек выбирает решение по совокупности:
-- **Ценность** — насколько энергоэффективно выполнит работу (польза - инвестиции)
-- **Проблемы** — есть ли известные проблемы с решением
-- **Привычка** — уже использовал раньше, когнитивно проще
-- **Барьеры перехода** — стоимость переключения на новое решение
-- **Доверие** — знакомость бренда, рекомендации
+A person picks a Solution by the sum of:
+- **Value (ценность)** — how energy-efficiently it does the Job (benefit − investment)
+- **Problems** — known issues with the Solution
+- **Habit** — already used before, cognitively easier
+- **Switching barriers** — cost of switching to a new Solution
+- **Trust** — brand familiarity, recommendations
 
-### Алгоритм построения Consideration Set
+### Algorithm for building a Consideration Set
 
-1. **Определи работу** — конкретную работу, за которую конкурируют решения
-2. **Определи сегмент** — для какого сегмента строим (разные сегменты = разные CS)
-3. **Собери ВСЕ решения** — включая неочевидные:
-   - Прямые конкуренты (такие же продукты)
-   - Альтернативные решения (другие продукты для той же работы)
-   - DIY-решения (делает сам: Excel, Google Sheets, записки)
-   - «Ничего не делать» (терпит / откладывает)
-   - «Нанять человека» (ассистент, фрилансер, агентство)
-4. **Для каждого решения оцени:**
-   - Какую ценность даёт (польза vs инвестиции)
-   - Какие проблемы
-   - Насколько привычно
-   - Барьеры входа и выхода
-5. **Найди возможности** — где твой продукт может выиграть конкуренцию
+1. **Define the Job** — the specific Job Solutions compete for
+2. **Define the Segment** — which Segment we're building this for (different Segments = different CSs)
+3. **Collect ALL Solutions** — including the non-obvious:
+   - Direct competitors (same kind of products)
+   - Alternative Solutions (other products for the same Job)
+   - DIY Solutions (does it themselves: Excel, Google Sheets, notes)
+   - "Do nothing" (puts up with it / postpones)
+   - "Hire a human" (assistant, freelancer, agency)
+4. **For each Solution evaluate:**
+   - What Value it delivers (benefit vs investment)
+   - What problems
+   - How habitual
+   - Entry and exit barriers
+5. **Find opportunities** — where your product can win the competition
 
 ---
 
-## Формат ответа
+## Response format
 
-### Consideration Set: [работа клиента]
+### Consideration Set: [customer Job]
 
-**Сегмент:** [для кого]
-**Работа:** [формулировка работы]
+**Segment:** [for whom]
+**Job:** [Job statement]
 
-#### Карта решений
+#### Solutions map
 
-| # | Решение | Тип | Ценность | Проблемы | Привычка | Барьеры перехода |
-|---|---------|-----|----------|----------|----------|-----------------|
-| 1 | [твой продукт] | прямой | ... | ... | ... | ... |
-| 2 | ... | прямой/альтернативный/DIY | ... | ... | ... | ... |
-| 3 | «Ничего не делать» | бездействие | ... | ... | ... | ... |
+| # | Solution | Type | Value | Problems | Habit | Switching barriers |
+|---|----------|------|-------|----------|-------|--------------------|
+| 1 | [your product] | direct | ... | ... | ... | ... |
+| 2 | ... | direct/alternative/DIY | ... | ... | ... | ... |
+| 3 | "Do nothing" | inaction | ... | ... | ... | ... |
 
-#### Конкурентная динамика
+#### Competitive dynamics
 
-- **Главные конкуренты за эту работу:** [2-3 решения]
-- **Неочевидные конкуренты:** [решения, которые часто не замечают]
-- **Текущий «чемпион»:** [какое решение сейчас выигрывает и почему]
+- **Main competitors for this Job:** [2-3 Solutions]
+- **Non-obvious competitors:** [Solutions often overlooked]
+- **Current "champion":** [which Solution is winning now and why]
 
-#### Стратегические возможности
+#### Strategic opportunities
 
-1. **Выиграть по ценности:** [как создать больше ценности, чем текущий чемпион]
-2. **Выиграть по проблемам:** [какие проблемы чемпиона можно починить]
-3. **Загрузиться в CS:** [как добиться awareness у сегмента, который не знает про наш продукт]
-4. **Снизить барьеры:** [как облегчить переход с текущего решения]
+1. **Win on Value:** [how to create more Value than the current champion]
+2. **Win on problems:** [which champion's problems can be fixed]
+3. **Load into the CS:** [how to get awareness in the Segment that doesn't know about our product]
+4. **Lower barriers:** [how to make switching from the current Solution easier]
 
-**Следующий шаг:** Для генерации механик ценности — `/value-mechanics`. Для описания работ — `/job-describe`.
+**Next step:** To generate Value Mechanics — `/value-mechanics`. To describe Jobs — `/job-describe`.
 
 ---
 
-**Продукт/работа для анализа:**
+**Product/Job to analyze:**
 
 $ARGUMENTS

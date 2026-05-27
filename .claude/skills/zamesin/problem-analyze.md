@@ -1,96 +1,102 @@
+---
+language: en
+methodology_origin: ru
+---
+
 # Skill: /problem-analyze
 
-> Деконструкция проблемы клиента по методологии Advanced Jobs To Be Done (9 шагов)
+> Deconstructing a customer problem using the Advanced Jobs To Be Done methodology (9 steps)
 
-## Триггеры
+## Triggers
 
 - `/problem-analyze`
+- "analyze the problem"
+- "the customer is complaining"
+- "why are customers leaving"
+- "break down the problem"
 - "проанализируй проблему"
-- "клиент жалуется"
-- "почему клиенты уходят"
-- "разбери проблему"
 
-## Инструкция
+## Instructions
 
-Пользователь описывает проблему, жалобу клиента или «боль». Твоя задача — деконструировать проблему по 9 шагам AJTBD и найти корневую причину.
+The user describes a problem, customer complaint, or "pain". Your task is to deconstruct the problem in 9 AJTBD steps and find the root cause.
 
-### Что такое проблема в AJTBD
+### What a problem is in AJTBD
 
-**Проблема НИКОГДА не существует сама по себе.**
+**A problem NEVER exists on its own.**
 
-**Проблема — ВСЕГДА следствие того, что на работу было нанято конкретное решение, и это решение облажалось, то есть выполнило работу ниже ожиданий.**
+**A problem is ALWAYS the consequence of a specific Solution (решение) being hired for a Job (работа), and that Solution screwing up — i.e. doing the Job below expectations.**
 
-Проблема — это НЕ просто «меньшая ценность». Это сигнал о том, что предсказательная модель мозга ошиблась. Мозг предсказал один результат, а получил другой — отсюда негативные эмоции и просадка дофамина.
+A problem is NOT just "less Value". It's a signal that the brain's predictive model was wrong. The brain predicted one outcome and got another — hence the negative emotions and dopamine drop.
 
-### 9 шагов деконструкции проблемы
+### 9 steps of problem deconstruction
 
-1. **Работа** — какую работу (цель) выполнял человек?
-2. **Решение** — какое решение было нанято на эту работу?
-3. **Предсказание мозга** — что мозг автоматически предсказал: граф работ, косты, пользу?
-4. **Что пошло не так** — решение не выполнило работу совсем ИЛИ выполнило хуже ожиданий (больше костов / меньше пользы)?
-5. **Негативные эмоции** — злость, раздражение, разочарование как сигнал «важная цель не выполнена»
-6. **Просадка дофамина** — предсказание ошиблось → сигнал обратной связи «не использовать это решение»
-7. **Налоговые работы** — какие дополнительные работы вынужден выполнять человек, чтобы всё-таки достичь цели?
-8. **Решение клиента** — продолжает пользоваться (работа важна) или уходит? Рекомендует или отговаривает?
-9. **Работа выше уровнем** — какая высокоуровневая работа пострадала?
+1. **Job** — which Job (goal) was the person doing?
+2. **Solution** — which Solution was hired for this Job?
+3. **Brain's prediction** — what did the brain automatically predict: Job Graph, costs, benefit?
+4. **What went wrong** — did the Solution fail the Job entirely OR do it worse than expected (more costs / less benefit)?
+5. **Negative emotions** — anger, irritation, disappointment as a signal "an important goal wasn't done"
+6. **Dopamine drop** — prediction was wrong → feedback signal "do not use this Solution"
+7. **Tax Jobs** — what additional Jobs is the person forced to do to still reach the goal?
+8. **Customer's decision** — keeps using (Job is important) or leaves? Recommends or warns others off?
+9. **Higher-level Job** — which higher-level Job suffered?
 
-### Типичные ошибки при работе с проблемами
+### Typical mistakes when working with problems
 
-- **Путают проблемы с работами:** «автоматизировать маркетинг» — работа, а не проблема
-- **Чинят не те проблемы:** не учитывают сегменты, маржинальность, критическую последовательность
-- **Чинят проблемы маленьких сегментов** или низкомаржинальных клиентов
-- **Сводят ВСЮ ценность к починке проблем** — это сильно ограничивает возможности
-- **Не учитывают, что проблема может быть в НЕкритической последовательности** — тогда она менее приоритетна
+- **Confusing problems with Jobs:** "automate marketing" — Job, not problem
+- **Fixing the wrong problems:** ignoring Segments, margin, Critical Sequence
+- **Fixing problems of small Segments** or low-margin customers
+- **Reducing ALL Value to fixing problems** — that severely limits opportunities
+- **Ignoring that a problem may be in the NON-critical sequence** — then it's lower priority
 
-### Критическая последовательность
+### Critical Sequence
 
-Проблемы в **критической последовательности работ** (работы, которые человек НЕ МОЖЕТ не выполнить) — всегда приоритет #1. Невыполнение работы из критической последовательности с высокой вероятностью приводит к отвалу клиента.
+Problems in the **Critical Sequence of Jobs** (Jobs a person CANNOT skip) are always priority #1. Failing a Job in the Critical Sequence leads to customer drop-off with high probability.
 
-### Проблемы с другими работами
+### Problems with other Jobs
 
-Решение может выполнить работу, на которую нанято, но создать проблемы при выполнении ДРУГИХ работ. Пример: Slack выполняет работу «общаться в команде», но создаёт проблему с работой «фокусироваться и достигать результатов».
+A Solution can do the Job it was hired for, yet create problems for OTHER Jobs. Example: Slack does the Job "communicate as a team" but creates a problem for the Job "focus and produce results".
 
-### Как правильно извиняться за проблемы
+### How to apologize for problems properly
 
-Лучшее, что можно сделать — выполнить исходную работу без проблем. Бонусы, скидки и промокоды НЕ выполняют исходную работу и вызывают ещё больше раздражения.
+The best thing you can do is perform the original Job without problems. Bonuses, discounts, and promo codes do NOT perform the original Job and trigger even more irritation.
 
 ---
 
-## Формат ответа
+## Response format
 
-### Деконструкция проблемы: [краткое название]
+### Problem deconstruction: [short name]
 
-#### 9 шагов анализа
+#### 9-step analysis
 
-| Шаг | Вопрос | Ответ |
-|-----|--------|-------|
-| 1. Работа | Какую работу выполнял? | ... |
-| 2. Решение | Что было нанято? | ... |
-| 3. Предсказание | Что ожидал мозг? | ... |
-| 4. Облом | Что пошло не так? | ... |
-| 5. Эмоции | Что чувствует? | ... |
-| 6. Дофамин | Предсказание ошиблось → | ... |
-| 7. Налоговые работы | Что вынужден делать? | ... |
-| 8. Решение клиента | Уходит / остаётся? | ... |
-| 9. Работа выше | Что пострадало? | ... |
+| Step | Question | Answer |
+|------|----------|--------|
+| 1. Job | Which Job was being done? | ... |
+| 2. Solution | What was hired? | ... |
+| 3. Prediction | What did the brain expect? | ... |
+| 4. Failure | What went wrong? | ... |
+| 5. Emotions | What do they feel? | ... |
+| 6. Dopamine | Prediction was wrong → | ... |
+| 7. Tax Jobs | What are they forced to do? | ... |
+| 8. Customer's decision | Leave / stay? | ... |
+| 9. Higher Job | What suffered? | ... |
 
-#### Диагноз
+#### Diagnosis
 
-- **Корневая причина:** [формулировка через работу + решение]
-- **Критическая последовательность:** входит / не входит
-- **Затронутые сегменты:** [какие]
-- **Масштаб:** единичный случай / системная проблема
+- **Root cause:** [stated via Job + Solution]
+- **Critical Sequence:** included / not included
+- **Affected Segments:** [which]
+- **Scale:** isolated case / systemic problem
 
-#### Рекомендации
+#### Recommendations
 
-1. **Починить проблему** — [как именно выполнить работу без проблем]
-2. **Альтернативный путь** — [может ли другая механика ценности решить задачу лучше?]
-3. **Не чинить, если:** [проблема не в критической последовательности / маленький сегмент / низкая маржинальность]
+1. **Fix the problem** — [how exactly to do the Job without problems]
+2. **Alternative path** — [could a different Value Mechanic solve the task better?]
+3. **Do NOT fix if:** [problem is outside the Critical Sequence / small Segment / low margin]
 
-**Следующий шаг:** Для создания ценности сверх починки проблем — `/value-mechanics`. Для анализа конкурентных решений — `/consideration-set`.
+**Next step:** To create Value beyond fixing problems — `/value-mechanics`. To analyze competing Solutions — `/consideration-set`.
 
 ---
 
-**Проблема для анализа:**
+**Problem to analyze:**
 
 $ARGUMENTS

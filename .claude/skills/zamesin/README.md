@@ -1,38 +1,38 @@
 # Zamesin AJTBD Skills
 
-> Продуктовое мышление по методологии Advanced Jobs To Be Done (Ваня Замесин, "Как делать продукт")
+> Product thinking via the Advanced Jobs To Be Done methodology (Vanya Zamesin, "How to Build a Product")
 
-## Как пользоваться
+## How to use
 
-**Быстрый старт:** вызови `/zamesin` с любым продуктовым вопросом — оркестратор сам определит, какие скиллы задействовать.
+**Quick start:** call `/zamesin` with any product question — the orchestrator figures out which skills to chain.
 
-**Точечный вызов:** вызови конкретный скилл напрямую, если знаешь что нужно.
+**Targeted call:** invoke a specific skill directly if you know what you need.
 
-## Скиллы
+## Skills
 
-| Скилл | Что делает | Триггер-фраза |
-|-------|-----------|---------------|
-| `/zamesin` | Оркестратор — принимает любой вопрос, маршрутизирует | "через JTBD", "продуктовый анализ" |
-| `/job-describe` | Описание работ клиентов по формуле AJTBD | "опиши работы" |
-| `/job-graph` | Построение графа работ (иерархия + критическая последовательность) | "построй граф работ" |
-| `/segment-find` | Поиск и ранжирование сегментов по работам | "найди сегменты" |
-| `/value-mechanics` | Генерация гипотез через 20+ механик ценности | "как создать ценность" |
-| `/problem-analyze` | Деконструкция проблемы по AJTBD (9 шагов) | "проанализируй проблему" |
-| `/consideration-set` | Карта конкурентного набора решений | "с кем конкурируем" |
-| `/biz-task-solve` | 5-шаговый алгоритм решения бизнес-задач | "как решить задачу" |
+| Skill | What it does | Trigger phrase |
+|---|---|---|
+| `/zamesin` | Orchestrator — takes any question, routes to skills | "through JTBD", "product analysis" |
+| `/job-describe` | Describe customer Jobs via the AJTBD formula | "describe the jobs" |
+| `/job-graph` | Build the Job Graph (hierarchy + Critical Sequence) | "build the job graph" |
+| `/segment-find` | Find and rank Segments by Jobs | "find segments" |
+| `/value-mechanics` | Generate hypotheses via 20+ value mechanics | "how to create value" |
+| `/problem-analyze` | Deconstruct a problem via AJTBD (9 steps) | "analyze the problem" |
+| `/consideration-set` | Map the competitive Consideration Set | "who do we compete with" |
+| `/biz-task-solve` | 5-step algorithm for solving business tasks | "how to solve the task" |
 
-## Типичные сценарии
+## Typical scenarios
 
-| Задача | Цепочка скиллов |
-|--------|----------------|
-| "Кто наш клиент?" | `/job-describe` → `/segment-find` |
-| "Как создать ценность?" | `/job-describe` → `/job-graph` → `/value-mechanics` |
-| "Как вырасти в выручке?" | `/biz-task-solve` → все скиллы |
-| "Клиент жалуется на X" | `/problem-analyze` |
-| "С кем мы конкурируем?" | `/consideration-set` |
-| "Нужно КП / позиционирование" | `/segment-find` → `/value-mechanics` → `/consideration-set` |
+| Task | Skill chain |
+|---|---|
+| "Who is our customer?" | `/job-describe` → `/segment-find` |
+| "How to create value?" | `/job-describe` → `/job-graph` → `/value-mechanics` |
+| "How to grow revenue?" | `/biz-task-solve` → all skills |
+| "Customer complains about X" | `/problem-analyze` |
+| "Who do we compete with?" | `/consideration-set` |
+| "Need a proposal / positioning" | `/segment-find` → `/value-mechanics` → `/consideration-set` |
 
-## Источник знаний
+## Knowledge source
 
-Книга Вани Замесина "Как делать продукт" — главы 1.1, 1.2, 1.3.
-Оригиналы: `INBOX/JTBD-Zamesin-Book/`
+Vanya Zamesin's book "Как делать продукт" — chapters 1.1, 1.2, 1.3.
+Originals: `INBOX/JTBD-Zamesin-Book/`
