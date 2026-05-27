@@ -6,7 +6,7 @@
 
 ```
 .
-├── CLAUDE.md                   # Правила для AI (безопасность, Write-First, anti-bloat, LLM Wiki, Telegram)
+├── CLAUDE.md                   # Правила для AI (Write-First, безопасность, Date Anchor, anti-bloat, ссылки на скиллы)
 ├── PROJECTS.md                 # Дашборд проектов (шаблон, заполнишь под себя)
 ├── SERVICES.md                 # Локальные/удалённые сервисы (шаблон)
 ├── .gitignore                  # Безопасные дефолты: .env, ключи, токены, логи, кэш
@@ -60,13 +60,17 @@ cd my-workspace
 |---|---|
 | `/business-advisory-team` | Обсуждение бизнес-идеи командой из 6 AI-экспертов (3 раунда) |
 | `/product-dev-team` | Обсуждение продуктового/технического решения командой из 6 специалистов |
-| `/expecto-patronum` | Обсуждение бизнес-идеи командой из 6 магов Хогвартса (3 раунда) |
 | `/idea-quickcheck` | Быстрая проверка бизнес-идеи за 2 минуты (3 эксперта, 1 раунд) |
 | `/deep-research` | Глубокое параллельное исследование темы через 5 субагентов |
 | `/prospect-research` | Исследование потенциального клиента (5 параллельных агентов) |
+| `/prospect-brief` | Внешний брифинг партнёру/клиенту из готового business-analysis.md |
 | `/seo-research` | SEO-исследование — ключевые слова, SERP-анализ, content gap |
 | `/content-ideas` | 10 идей для контента по теме — тренды, боли ЦА, неочевидные углы |
 | `/content-pipeline` | End-to-end генерация контента от идеи до готового поста |
+| `/mega-polish` | Полировка контента от "хорошо" до "отлично" — формулировки, структура |
+| `/evaluate` | Независимая оценка результата через агента-критика с чистым контекстом |
+| `/security-review` | Аудит pending changes ветки — секреты, OWASP, небезопасные паттерны |
+| `/sync-all` | Commit & push всех изменений по всем git-репам в workspace |
 | `/project-context-setup` | Инициализация проектного контекста — 4 базовых файла |
 | `/reflect` | Фиксация урока из ошибки (с маршрутизацией в CLAUDE.md / memory) |
 
@@ -74,12 +78,17 @@ cd my-workspace
 
 On-demand инструменты, которые вызываются по ключевым словам:
 
-- **Контент:** `write-post`, `tov-write`, `mega-polish`, `create-docx`, `create-proposal`
+- **Контент:** `write-post`, `tov-write`, `create-docx`, `create-proposal`
 - **Входные данные:** `voice`, `voice-tg`, `video-summary`, `youtube-transcript`, `tg-copy-paste`
 - **Встречи/звонки:** `call-analysis`, `call-quality-review`
-- **Продажи/клиенты:** `prospect-brief`
-- **Анализ:** `svetofor` (красное/жёлтое/зелёное), `evaluate` (quality gate через свежего агента)
+- **Анализ:** `svetofor` (красное/жёлтое/зелёное)
 - **Процессы:** `inbox-root-processing`
+- **Качество текста:** `ai-markers` — чек-лист AI-штампов перед публикацией
+- **Контекст-гигиена:** `context-management` — когда `/compact`, когда `/clear`
+- **Memory:** `memory-audit` — ревизия `MEMORY.md` (orphans / index-only / stale)
+- **Знания:** `llm-wiki` — полный воркфлоу ingest/query/lint
+- **Безопасность:** `telegram-safety` — правила работы с Telegram Client API
+- **Утилиты:** `gen-image` (OpenAI gpt-image)
 - **JTBD:** `zamesin/` — набор скиллов по методологии AJTBD (Замесин)
 
 ## Безопасность
