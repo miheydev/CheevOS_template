@@ -1,3 +1,8 @@
+---
+description: "Generates text in a given tone of voice using a ToV profile. Triggers: 'напиши в стиле <автора>', 'используй ToV профиль', 'адаптируй под голос', 'напиши голосом <X>'."
+language: ru
+---
+
 # Skill: /tov-write
 
 > Генерация текста в заданном tone of voice по профилю

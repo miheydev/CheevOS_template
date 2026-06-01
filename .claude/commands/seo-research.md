@@ -1,5 +1,6 @@
 ---
 description: SEO-исследование — ключевые слова, SERP-анализ, content gap (3 параллельных агента)
+language: partial
 ---
 
 # SEO Research

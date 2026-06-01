@@ -1,3 +1,8 @@
+---
+description: Record a durable lesson from a mistake made in this session — honest root-cause plus a rule or memory so it doesn't recur. Use when the user says you got something wrong, or asks you to remember/learn a lesson.
+language: en
+---
+
 Пользователь просит зафиксировать урок из ошибки, которую ты допустил в этой сессии.
 
 ## Что делать

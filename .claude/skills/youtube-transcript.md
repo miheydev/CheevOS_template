@@ -1,3 +1,8 @@
+---
+description: "Extracts transcript from a YouTube video using youtube-transcript-api."
+language: en
+---
+
 # Skill: /youtube-transcript
 
 > Извлечение транскрипта из YouTube-видео

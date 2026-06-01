@@ -1,5 +1,6 @@
 ---
 description: Мультиагентное обсуждение бизнес-идеи командой из 6 AI-экспертов (3 раунда)
+language: ru
 ---
 
 # Business Advisory Team

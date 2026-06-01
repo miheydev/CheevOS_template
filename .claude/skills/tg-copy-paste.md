@@ -1,3 +1,8 @@
+---
+description: "Prepares text for copy-paste into Telegram Desktop with preserved formatting. Triggers: 'оформи для Telegram', 'подготовь для копирования в TG', 'сделай для копипасты в Telegram'."
+language: ru
+---
+
 # Skill: /tg-copy-paste
 
 > Подготовка текста для копирования в Telegram Desktop с сохранением форматирования

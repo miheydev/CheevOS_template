@@ -1,3 +1,8 @@
+---
+description: "Generates professional .docx documents (briefings, proposals, analytics) using the AAA design system. Triggers: 'создай docx', 'сделай брифинг в docx', 'сгенерируй документ', 'подготовь docx для клиента'."
+language: ru
+---
+
 # Skill: /create-docx
 
 > Генерация профессиональных .docx документов (брифинги, КП, аналитика) по твоей дизайн-системе

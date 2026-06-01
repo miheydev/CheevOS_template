@@ -1,5 +1,6 @@
 ---
 description: End-to-end генерация контента — от идеи до готового поста/статьи (оркестратор пайплайна)
+language: ru
 ---
 
 # Content Pipeline

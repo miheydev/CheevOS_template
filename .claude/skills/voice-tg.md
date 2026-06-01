@@ -1,3 +1,8 @@
+---
+description: "Igor's voice for Telegram — turns a raw stream of thought into a ready-to-send TG message. Triggers: 'оформи в Telegram', 'упакуй это в сообщение', 'сделай в TG', 'оформи как ТГ-сообщение'."
+language: ru
+---
+
 # Skill: /voice-tg
 
 > Голос автора для Telegram — превращает поток мыслей в готовое сообщение

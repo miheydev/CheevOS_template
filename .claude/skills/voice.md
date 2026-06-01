@@ -1,3 +1,8 @@
+---
+description: "Igor's voice — turns a raw stream of thought into coherent text. Triggers: 'оформи в текст', 'упакуй мысли', 'сделай связный текст', 'оформи моим голосом'."
+language: ru
+---
+
 # Skill: /voice
 
 > Голос автора — превращает поток мыслей в связный текст

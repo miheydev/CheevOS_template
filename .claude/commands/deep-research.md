@@ -1,5 +1,6 @@
 ---
 description: Глубокое параллельное исследование темы через 5 суб-агентов
+language: partial
 ---
 
 # Deep Research

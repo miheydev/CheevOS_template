@@ -1,3 +1,8 @@
+---
+description: "Deep analysis and structured notes from a video (workshop, lecture, talk)."
+language: en
+---
+
 # Skill: /video-summary
 
 > Глубокий конспект-анализ видео (воркшоп, лекция, доклад)

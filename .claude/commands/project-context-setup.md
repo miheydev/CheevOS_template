@@ -1,5 +1,6 @@
 ---
 description: Инициализация проектного контекста — 4 базовых файла для нового проекта
+language: en
 ---
 
 # Project Context Setup

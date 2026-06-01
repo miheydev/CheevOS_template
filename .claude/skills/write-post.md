@@ -1,3 +1,8 @@
+---
+description: "Writes a post for Telegram channel @i_mikheev with ready-to-publish formatting. Triggers: 'напиши пост', 'пост в канал', 'оформи как пост', 'сделай пост для @i_mikheev'."
+language: ru
+---
+
 # Skill: /write-post
 
 > Написание поста для личного Telegram-канала автора с готовым форматированием

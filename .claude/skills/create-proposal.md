@@ -1,3 +1,8 @@
+---
+description: "Generates AAA commercial proposal (КП) as .docx — minimalist B&W style. Triggers: 'создай КП', 'сделай коммерческое предложение', 'подготовь оффер', 'сгенерируй proposal'."
+language: ru
+---
+
 # Skill: /create-proposal
 
 > Генерация коммерческого предложения (КП) в .docx — минималистичный ЧБ стиль

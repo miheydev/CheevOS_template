@@ -1,3 +1,8 @@
+---
+description: "On-demand skill for processing files in the root INBOX/ folder."
+language: en
+---
+
 # Root INBOX Processing
 
 > **Skill Type**: On-Demand
